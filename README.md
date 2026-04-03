@@ -1,1 +1,3 @@
 # libtermio
+
+simple terminal library
