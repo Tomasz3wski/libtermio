@@ -1,7 +1,10 @@
 cmake_minimum_required(VERSION 3.21)
 project(termio)
 
-add_library(termio src/RawTerminal.cpp)
+add_library(termio 
+    src/RawTerminal.cpp
+    src/ansi.cpp
+    )
 
 target_include_directories(termio PUBLIC include)
 
