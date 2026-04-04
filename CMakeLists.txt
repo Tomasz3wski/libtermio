@@ -4,6 +4,7 @@ project(termio)
 add_library(termio 
     src/RawTerminal.cpp
     src/ansi.cpp
+    src/input.cpp
     )
 
 target_include_directories(termio PUBLIC include)
